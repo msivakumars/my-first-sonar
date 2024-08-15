@@ -5,5 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def Home():
-    return {"message": "welcome to my-first-sonar"}
+    return {
+            "message": "welcome to my-first-sonar"
+        }
 
